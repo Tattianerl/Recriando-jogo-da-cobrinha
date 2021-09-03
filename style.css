@@ -1,0 +1,67 @@
+
+
+body{
+    background:  url(/sk2.jpg);
+    background-size: 100vw 130vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    
+
+}
+canvas {
+    border: 1px solid rgb(9, 211, 76);
+    margin-top: 20px;
+    
+}
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row {
+    align-items: center;
+    display: flex;
+}
+ .col {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ h1 {
+    color: rebeccapurple;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+
+
+button {
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+button.start {
+    background: rebeccapurple;
+    color: black;
+}
+button.pause {
+    background: lime;
+    color: black;
+}
+.config {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+    .hide {
+        display: none;
+    }
